@@ -31,6 +31,37 @@ def resp(flex):
           else:
             if pesan == "button":
               me.sendFlex(to, button["button"])
+            elif pesan == "flex":
+              template1 = ("link gambar")
+              template2 = ("link gambar")
+              template3 = ("link gambar")
+              data = {
+                                            "type": "flex",
+                                            "altText": "{} membagikan flex".format(str(prank.displayName)),
+                                            "contents": {
+                                                "type": "bubble",
+                                                "body": {
+                                                    "type": "box",
+                                                    "layout": "horizontal",
+                                                    "spacing": "md",
+                                                    "contents": [
+                                                        {
+                                                            "type": "https://stickershop.line-scdn.net/stickershop/v1/product/1169/LINEStorePC/main.png;compress=true?__=20161019",
+                                                            "url": template1,
+                                                        },
+                                                        {
+                                                            "type": "https://stickershop.line-scdn.net/stickershop/v1/product/1008584/LINEStorePC/main.png;compress=true",
+                                                            "url": template2,
+                                                        },
+                                                        {
+                                                            "type": "https://stickershop.line-scdn.net/stickershop/v1/product/1054797/LINEStorePC/main.png;compress=true?__=20161019",
+                                                            "url": template3,
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                    }
+                                    me.sendFlex(to,data)
   except Exception as e:
     print(e)
     if flex.type == 59:
