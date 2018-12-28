@@ -5,7 +5,6 @@ button = json.load(butt)
 me = LINE()
 TEMP_ID = "1623679774"
 channel = Channel(me, TEMP_ID)
-me.log(str(channel.getChannelResult())
 oepoll = OEPoll(me)
 meProfile = me.getProfile()
 meM = me.getProfile().mid
