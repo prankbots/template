@@ -11,7 +11,7 @@ image = json.load(imag)
 booble = json.load(boob)
 teks = json.load(tek)
 me = LINE()
-TEMP_ID = "1623679774"
+TEMP_ID = "1635019713"
 channel = Channel(me, TEMP_ID)
 oepoll = OEPoll(me)
 meProfile = me.getProfile()
@@ -46,4 +46,4 @@ while True:
         resp(flex)
         oepoll.setRevision(flex.revision)       
   except Exception as e:
-    me.log("EROR WHILE TRUE\n" + str(e))
+    me.log("WHILE TRUE\n" + str(e))
