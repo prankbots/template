@@ -1,0 +1,46 @@
+{
+    "booble": {
+        "type": "template",
+        "altText": "BOOBLE",
+        "template": {
+            "type": "carousel",
+            "actions": [],
+            "columns": [
+                {
+                    "thumbnailImageUrl": "https://1.bp.blogspot.com/-0cJUYiIj9So/Wg_statUjsI/AAAAAAAAK1k/6L1sY5xJEIUfi-8hxW6KuKBSy6jiVoChQCLcBGAs/s1600/Casey_Youtube_GIF.0.gif",
+                    "title": "BAGIAN 2",
+                    "text": "TEKS CORESOLE 1",
+                    "actions": [
+                        {
+                            "type": "uri",
+                            "label": "LINK 1",
+                            "uri": "http://line.me/ti/p/~adiputra.95"
+                        },
+                        {
+                            "type": "uri",
+                            "label": "LINK 2",
+                            "uri": "line://nv/profile"
+                        }
+                    ]
+                },
+                {
+                    "thumbnailImageUrl": "https://1.bp.blogspot.com/-0cJUYiIj9So/Wg_statUjsI/AAAAAAAAK1k/6L1sY5xJEIUfi-8hxW6KuKBSy6jiVoChQCLcBGAs/s1600/Casey_Youtube_GIF.0.gif",
+                    "title": "BAGIAN 2",
+                    "text": "TEKS CORESOLE2 2",
+                    "actions": [
+                        {
+                            "type": "uri",
+                            "label": "LINK 1",
+                            "uri": "http://line.me/ti/p/~adiputra.95"
+                        },
+                        {
+                            "type": "uri",
+                            "label": "LINK 2",
+                            "uri": "line://nv/profile"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

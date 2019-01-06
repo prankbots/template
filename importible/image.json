@@ -1,0 +1,22 @@
+{
+    "images": {
+        "type": "template",
+        "altText": "membagikan sticker",
+        "template": {
+            "type": "image_carousel",
+            "columns": [{
+                "imageUrl": "https://cdn.dribbble.com/users/287797/screenshots/2406073/watch_me.gif",
+                "action": {
+                    "type": "uri",
+                    "uri": "https://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ",
+                    "area": {
+                        "x": 520,
+                        "y": 0,
+                        "width": 520,
+                        "height": 1040
+                    }
+                }
+            }]
+        }
+    }
+}

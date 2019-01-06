@@ -1,0 +1,75 @@
+{
+    "filler": {
+        "type": "flex",
+        "altText": "FILLER",
+        "contents": {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRojbvSsQmY-XGX7fxO4wW-NpVTJ3pu82zmIHcgKmBmNs6I9YxU",
+                "size": "full",
+                "aspectRatio": "2:1"
+            },
+            "body": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "image",
+                        "url": "https://lh5.googleusercontent.com/-lELboYeeEfs/AAAAAAAAAAI/AAAAAAAAGJw/-BOZ4A0UpEc/photo.jpg"
+                    },
+                    {
+                        "type": "filler"
+                    },
+                    {
+                        "type": "image",
+                        "url": "https://lh5.googleusercontent.com/-lELboYeeEfs/AAAAAAAAAAI/AAAAAAAAGJw/-BOZ4A0UpEc/photo.jpg"
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "margin": "md",
+                "contents": [
+                    {
+                        "type": "spacer",
+                        "size": "xl"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "TEKS 2",
+                            "uri": "http://line.me/ti/p/~adiputra.95"
+                        },
+                        "style": "primary",
+                        "color": "#F7141F"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "TEKS 1",
+                            "uri": "http://line.me/ti/p/~adiputra.95"
+                        },
+                        "style": "primary",
+                        "color": "#00ff7f"
+                    }
+                ]
+            },
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "TEMPLATE FILLER",
+                        "color": "#F7141F",
+                        "gravity": "center"
+                    }
+                ]
+            }
+        }
+    }
+}

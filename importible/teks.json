@@ -1,0 +1,21 @@
+{
+    "teks": {
+        "type": "flex",
+        "altText": "flex template",
+        "contents": {
+            "type": "bubble",
+            "body": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "TEKSNYA ISI DISINI",
+                        "color": "#3800E0",
+                        "wrap": true
+                    }
+                ]
+            }
+        }
+    }
+}
